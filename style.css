@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+   text-align: center;
+   font-family: 'Happy Monkey', cursive;
+   background: #a2d2ff;
+   background: linear-gradient(#a2d2ff, #efb0c9);
+   color: #ffffff;
+   /* letter-spacing: 54px; */
+   /* display: flex;
+   flex-direction: column; */
+   align-items: center;
+}
+h1, h2, h4, p{
+    text-shadow: 0 0 1px black;
+}
+/* .birth{
+    text-align: center;
+} */
+/* #img0{
+    border-radius: 70%;
+} */
+#img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 7px solid #efb0c9;
+}
+#bd-age {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: #efb0c9;
+    margin: 7px 0 10px 0;
+}
+
+#bd-date{
+    margin: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: #efb0c9;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.gift-img{
+    background-image: url("gift.png");
+    /* background: linear-gradient(rgb(58, 4, 94),rgb(255, 208, 0)); */
+    margin: 0;
+    border: 6px solid white;
+    border-radius: 10px;
+    height: 430px;
+    width: 574px;
+    display: flex;
+    /* align-items: flex-end; */
+    /* justify-content: end; */
+    background-size: cover;
+    margin: 0 auto;
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift-title{
+    margin-top: 10px;
+}
+#gift-imge-mission:hover{
+    background-image: url("Gifs/win.webp");
+}
+#gift-imge-excite:hover{
+    background-image: url("Gifs/com.webp");
+}
+#gift-imge-badass:hover{
+    background-image: url("Gifs/badass.webp");
+}
+#gift-imge-genius:hover{
+    background-image: url("Gifs/genius.webp");
+}
+#gift-imge-cheers{
+    width: 800px;
+}
+#gift-imge-cheers:hover{
+    background-image: url("Gifs/cheers.webp");
+}
+#foot{
+    font-style: italic;
+    font-size: 27px;
+    width: 650px;
+    margin: 40px auto 20px;
+}
+a{
+    color: white;
+}
